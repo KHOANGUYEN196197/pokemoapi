@@ -1,0 +1,28 @@
+.name{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    .box-left{
+        width: 400px;
+        text-align: center;
+        border-right: 1px solid black;
+        img{
+            width: 100%;
+        }
+    }
+    .box-right{
+        width: 400px;
+        margin-left: 15px;
+    }
+}
+.c1{
+    margin-bottom: 15px;
+    font-size: 20px;
+    span{
+        font-weight: 400;
+        font-size: 25px;
+    }
+}

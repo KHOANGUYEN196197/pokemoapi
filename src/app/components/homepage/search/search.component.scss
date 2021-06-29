@@ -1,0 +1,39 @@
+.search-box {
+  margin-right: 10px;
+  .search-input {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 2px 5px 2px 20px;
+    width: 270px;
+    border-radius: 50px;
+    border: none;
+    outline: none !important;
+    background: white;
+  }
+  .close-button {
+    margin-left: -35px;
+  }
+}
+
+.mat-select {
+  text-transform: capitalize;
+
+  .additional-selection {
+    text-transform: lowercase;
+    opacity: 0.75;
+    font-size: 0.75em;
+  }
+}
+
+.filter-component {
+  margin-left: 80px;
+  .filter {
+    margin-right: 10px;
+  }
+
+  .form-field {
+    width: auto;
+    margin-top: 8px;
+  }
+}

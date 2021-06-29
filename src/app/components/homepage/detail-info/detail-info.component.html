@@ -1,0 +1,24 @@
+<div class="name">{{data.name}}</div>
+<div class="box">
+  <div class="box-left">
+    <img src="{{ data.details.sprites.front_default }}" />
+  </div>
+  <div class="box-right">
+      <div class="c1"> <span>weight:</span> {{data.details.weight}}</div>
+      <div class="c1"><span>height:</span> {{data.details.height}}</div>
+      <div class="c1"><span>base experience:</span> {{data.details.base_experience}}</div>
+      <div class="c1"><span>sprites</span></div>
+      <div style="text-align: center;">
+          <img src="{{data.details.sprites.back_default}}" />
+          <img src="{{data.details.sprites.back_female}}"/>
+          <img src="{{data.details.sprites.back_shiny}}"/>
+          <img src="{{data.details.sprites.back_shiny_female}}"/>
+      </div>
+      <div style="text-align: center;">
+        <img src="{{data.details.sprites.front_default}}"/>
+        <img src="{{data.details.sprites.front_female}}"/>
+        <img src="{{data.details.sprites.front_shiny}}"/>
+        <img src="{{data.details.sprites.front_shiny_female}}"/>
+    </div>
+  </div>
+</div>

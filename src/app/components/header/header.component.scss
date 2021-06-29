@@ -1,0 +1,23 @@
+.mat-toolbar {
+  background-color: #ef5350;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+  .pokemon-logo {
+    margin-left: 50px;
+    height: 50px;
+    width: 150px;
+  }
+  .box {
+    margin-left: 70px;
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    button {
+      border: none;
+      background: no-repeat;
+      font-size: 18px;
+      color: aliceblue;
+      cursor: pointer;
+    }
+  }
+}

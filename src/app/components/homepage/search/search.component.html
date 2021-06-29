@@ -1,0 +1,35 @@
+<div class="search-box" style="    display: flex;
+margin-bottom: 15px;
+justify-content: flex-end;">
+  <input
+    matInput
+    class="search-input"
+    type="text"
+    [(ngModel)]="search"
+    (ngModelChange)="searchEvent($event)"
+    placeholder="Search Pokemon"
+  />
+
+
+<div class="filter-component">
+  <mat-label class="filter">Filter by Type</mat-label>
+  <mat-form-field class="form-field">
+    <mat-select [(ngModel)]="currentType" (ngModelChange)="onTypeSelected()">
+      <mat-option>None</mat-option>
+     
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="filter-component">
+  <mat-label class="filter">Filter by Abilities</mat-label>
+  <mat-form-field class="form-field">
+    <mat-select
+      [(ngModel)]="currentAbilities"
+      (ngModelChange)="onAbilitySelected()"
+      multiple
+    >
+    </mat-select>
+  </mat-form-field>
+</div>
+</div>
